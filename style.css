@@ -1,0 +1,12 @@
+.operations {
+    background-color: aqua;
+    display: flex;
+    height: auto;
+    width: 120px;
+    flex-wrap: wrap;
+}
+
+button {
+    height: 20px;
+    width: 30px
+}
