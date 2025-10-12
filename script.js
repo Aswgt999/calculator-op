@@ -2,12 +2,13 @@ let a = 0;
 let b = 0;
 let op = '';
 
-// operate();
+operate();
 
 function operate() {
-    a = Number(prompt("get a"));
-    b = Number(prompt("get b"));
-    op = prompt("Enter operator (+, -, *, /)");
+    a = document.querySelector(".btn")
+    console.log(a);
+    // b = Number(prompt("get b"));
+    // op = prompt("Enter operator (+, -, *, /)");
 
     switch(op) {
         case "+":

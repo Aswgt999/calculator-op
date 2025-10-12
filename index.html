@@ -10,31 +10,45 @@
   <body>
     <h1>Calculator</h1>
     <div class="calculator">
-      <div class="screen">23</div>
-      <div class="operations">
-        <button class="seven">7</button>
-        <button class="eight">8</button>
-        <button class="nine">9</button>
-        <button class="mutiply">*</button>
-
-        <button class="four">4</button>
-        <button class="five">5</button>
-        <button class="six">6</button>
-        <button class="subtract">-</button>
-
-        <button class="one">1</button>
-        <button class="two">2</button>
-        <button class="three">3</button>
-        <button class="add">+</button>
-
-        <button class="zero">0</button>
-        <button class="dot">.</button>
-        <button class="equals">=</button>
-        <button class="divide">/</button>
-
-        <button class="clear">C</button>
+      <div class="screen">
+        <input type="text" placeholder="23" />
+      </div>
+      <div class="num-pad">
+        <div class="c1">
+          <div class="clear">
+            <button class="btn">C</button>
+          </div>
+          <div class="row">
+            <button class="btn">7</button>
+            <button class="btn">8</button>
+            <button class="btn">9</button>
+          </div>
+          <div class="row">
+            <button class="btn">4</button>
+            <button class="btn">5</button>
+            <button class="btn">6</button>
+          </div>
+          <div class="row">
+            <button class="btn">1</button>
+            <button class="btn">2</button>
+            <button class="btn">3</button>
+          </div>
+          <div class="row">
+            <button class="btn">#</button>
+            <button class="btn">0</button>
+            <button class="btn">.</button>
+          </div>
+        </div>
+        <div class="c2">
+          <button class="btn">/</button>
+          <button class="btn">*</button>
+          <button class="btn">-</button>
+          <button class="btn">+</button>
+          <button class="btn equals">=</button>
+        </div>
       </div>
     </div>
+
     <script src="script.js"></script>
   </body>
 </html>
