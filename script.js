@@ -1,19 +1,3 @@
-// let a = 0;
-// let b = 0;
-// let op = '';
-
-// // operate();
-
-
-
-// function operate() {
-//     a = document.querySelector(".btn")
-//     console.log(a);
-//     // b = Number(prompt("get b"));
-//     // op = prompt("Enter operator (+, -, *, /)");
-
-//     switch(op) {
-//         case "+":
 // Calculator controller for the DOM in index.html
 // This version keeps a string `currentInput` for the operand currently being typed
 // and renders "firstOperand operator currentInput" so the operator is visually
